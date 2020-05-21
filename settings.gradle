@@ -1,0 +1,2 @@
+rootProject.name='AppCriaLista'
+include ':app'
