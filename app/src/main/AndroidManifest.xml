@@ -16,16 +16,15 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".FormListaActivity" />
         <activity
-            android:name=".ListasActivity"
+            android:name=".MainActivity"
             android:label="@string/title_activity_items_lista"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".MainActivity">
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
+         </activity>
     </application>
 
 </manifest>

@@ -20,6 +20,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.coordinatorlayout.widget.CoordinatorLayout;
 
 import android.view.View;
 import android.widget.AdapterView;
@@ -38,6 +39,8 @@ public class Item_lista_activity extends AppCompatActivity {
     private ChildEventListener childEventListener;
     private Query query;
     private ArrayAdapter<ItemLista> adapter;
+
+    private CoordinatorLayout tela;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -73,6 +76,8 @@ public class Item_lista_activity extends AppCompatActivity {
                 return true;
             }
         });
+
+        tela = findViewById(R.id.tela);
 
     }
 
